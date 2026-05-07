@@ -117,7 +117,7 @@ p{
 }
 
 .nav-img-div{
-    padding-left: 2%;
+    padding-left: 1%;
     margin: 0px;
     padding-top: 15px;
 }
@@ -835,6 +835,11 @@ button{
         padding-top: 0px;
     }
 
+    .about-box{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .about-paragraph-div{
         display: flex;
         flex-direction: column;
@@ -847,6 +852,11 @@ button{
     .services-container{
         margin-top: 0px;
         padding-top: 0px;
+    }
+
+    .services-box{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .title-paragraph-div{
@@ -891,6 +901,11 @@ button{
         gap: 25px;
     }
 
+    .skill-box{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .skill-list-div{
         background-color: white;
         margin: 0px;
@@ -907,6 +922,8 @@ button{
 
     .portfolio-box{
         padding-bottom: 25%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .asset-box{
@@ -948,6 +965,7 @@ button{
         margin-top: 40px;
     }
 
+
     /* Footer session */
 
     .footer-content-div{
@@ -960,6 +978,8 @@ button{
 
     .footer-box{
         padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .footer-info-div{
@@ -1125,6 +1145,11 @@ button{
         margin-top: 0px;
         padding-top: 0px;
     }
+    
+    .about-box{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .about-paragraph-div{
         display: flex;
@@ -1143,6 +1168,11 @@ button{
     .services-container{
         margin-top: 0px;
         padding-top: 0px;
+    }
+
+    .services-box{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .title-paragraph-div{
@@ -1185,6 +1215,10 @@ button{
 
     /* Skills Session */
 
+    .services-box{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .skill-content-div{
         display: grid;
@@ -1207,9 +1241,10 @@ button{
 
     /* Portfolio session */
 
-
     .portfolio-box{
         padding-bottom: 25%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .portfolio-box div h2{
@@ -1268,6 +1303,8 @@ button{
 
     .footer-box{
         padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .footer-info-div{
