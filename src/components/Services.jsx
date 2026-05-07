@@ -1,7 +1,7 @@
 import React from "react";
-import webDesignLogo from "/assets/icons8-web-design-40.png";
-import arrowLogo from "/assets/icons8-arrow-right-48.png";
-import webDevLogo from "/assets/icons8-web-developer-48.png";
+import webDesignLogo from "../assets/icons8-web-design-40.png";
+import arrowLogo from "../assets/icons8-arrow-right-48.png";
+import webDevLogo from "../assets/icons8-web-developer-48.png";
 
 function Services() {
   return (

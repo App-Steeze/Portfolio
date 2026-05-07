@@ -2,7 +2,7 @@ import React from "react";
 import Form from "./Form";
 import Header from "./Header";
 import Footer from "./Footer";
-import contactProfile from "/assets/pexels-sora-shimazaki-5926393.jpg";
+import contactProfile from "../assets/pexels-sora-shimazaki-5926393.jpg";
 
 function Contact() {
   return (

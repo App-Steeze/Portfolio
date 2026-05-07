@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Skills from "./Skills";
 import Services from "./Services";
-import experienceProfile from "/assets/pexels-tranmautritam-326503.jpg";
+import experienceProfile from "../assets/pexels-tranmautritam-326503.jpg";
 
 function Experiences(){
     return(

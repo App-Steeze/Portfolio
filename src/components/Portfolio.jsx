@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import PortfolioList from "./PortfolioList";
-import keeperImage from "/assets/Keeper site.png";
-import permalistImage from "/assets/permalist site.png";
-import TinDogImage from "/assets/Tin dog site.png";
-import familyTrackerImage from "/assets/family tracker site.png";
-import drumImage from "/assets/drum site.png";
-import quizImage from "/assets/country quiz site.png";
-import todolistImage from "/assets/todolist site.png";
-import simonGameImage from "/assets/Simon game site.png";
-import personalImage from "/assets/personal site.png";
-import secretImage from "/assets/secret site.png";
-import mondrianImage from "/assets/mondrian paint site.png";
-import laosImage from "/assets/flag of laos.png";
-import diceImage from "/assets/dice game site.png";
-import priceImage from "/assets/pricing list site.png";
-import motivationalImage from "/assets/motivational site.png";
+import keeperImage from "../assets/Keeper site.png";
+import permalistImage from "../assets/permalist site.png";
+import TinDogImage from "../assets/Tin dog site.png";
+import familyTrackerImage from "../assets/family tracker site.png";
+import drumImage from "../assets/drum site.png";
+import quizImage from "../assets/country quiz site.png";
+import todolistImage from "../assets/todolist site.png";
+import simonGameImage from "../assets/Simon game site.png";
+import personalImage from "../assets/personal site.png";
+import secretImage from "../assets/secret site.png";
+import mondrianImage from "../assets/mondrian paint site.png";
+import laosImage from "../assets/flag of laos.png";
+import diceImage from "../assets/dice game site.png";
+import priceImage from "../assets/pricing list site.png";
+import motivationalImage from "../assets/motivational site.png";
 
 
 function Portfolio() {
