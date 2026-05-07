@@ -979,8 +979,6 @@ button{
 
     .footer-box{
         padding-top: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .footer-info-div{
@@ -996,6 +994,8 @@ button{
         flex-direction: row;
         justify-content: center;
         margin-bottom: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 
@@ -1304,8 +1304,6 @@ button{
 
     .footer-box{
         padding-top: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .footer-info-div{
@@ -1321,6 +1319,8 @@ button{
         flex-direction: row;
         justify-content: center;
         margin-bottom: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 }
