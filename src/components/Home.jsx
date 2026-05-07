@@ -6,10 +6,10 @@ import Services from "./Services";
 import Carousel from "./Carousel";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";
-import profile from "/assets/img.jpg";
-import phoneIcon from "/assets/icons8-phone-64 (1).png";
-import emailIcon from "/assets/icons8-mail.gif";
-import homeCarousel from "/assets/pexels-thisisengineering-3861951.jpg";
+import profile from "../assets/img.jpg";
+import phoneIcon from "../assets/icons8-phone-64 (1).png";
+import emailIcon from "../assets/icons8-mail.gif";
+import homeCarousel from "../assets/pexels-thisisengineering-3861951.jpg";
 
 function Home() {
   return (
