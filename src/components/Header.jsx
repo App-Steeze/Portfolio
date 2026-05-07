@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import iconImage from "../assets/Appsteeze_Logo_NoWhite_BG.png";
 
 function Header(props) {
   const [isOver, setOver] = useState();
@@ -49,7 +50,7 @@ function Header(props) {
               <div className="nav-img-div">
                 <img
                   className="icon-logo"
-                  src="/assets/Appsteeze_Logo_NoWhite_BG.png"
+                  src={iconImage}
                   alt="AppSteeze logo"
                 />
               </div>
