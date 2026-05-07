@@ -617,12 +617,12 @@ button{
 .footer-box{
     padding-top: 50px;
     padding-bottom: 2%;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .content-box{
     margin-bottom: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .footer-content-div{
@@ -769,6 +769,7 @@ button{
         z-index: unset;
         padding-top: 0px;
         margin-top: 400px;
+        padding-left: 20px;
     }
 
     .menu-button {
