@@ -21,7 +21,7 @@ function Form() {
       ...prevValue,
       [name]: value,
     }));
-    setTyping(true)
+    setTyping(true);
   }
 
   async function handleSubmit(event) {
@@ -46,67 +46,73 @@ function Form() {
     setButton(false);
   }
 
-  function handleClick(){
+  function handleClick() {
     setText(true);
   }
 
   return (
     <div>
       <div className="form-container">
-        <form ref={formRef} onSubmit={handleSubmit}>
-          <div className="form-box">
+        <div className="form-box">
+          <form ref={formRef} onSubmit={handleSubmit}>
+            <div className="form-box">
+              <div className="form-input-box">
+                <div className="name-box form-input">
+                  <label name="Name">Name:</label>
+                  <input
+                    className="name-input"
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    placeholder="Last Name     First Name "
+                  />
+                </div>
 
-            <div className="form-input-box">
-              <div className="name-box form-input">
-                <label name="Name">Name:</label>
-                <input
-                  className="name-input"
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  placeholder="Last Name     First Name "
-                />
+                <div className="email-box form-input">
+                  <label name="email">Email:</label>
+                  <input
+                    className="email-input"
+                    type="text"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+
+                <div className="message-box form-input">
+                  <label name="Message">Message:</label>
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    required
+                    onChange={handleChange}
+                    placeholder="Write a message"
+                    rows={textareaOpen ? "6" : "2"}
+                    onClick={handleClick}
+                  />
+                </div>
               </div>
 
-              <div className="email-box form-input">
-                <label name="email">Email:</label>
-                <input
-                  className="email-input"
-                  type="text"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
+              <div hidden={loaderHidden} className="loader">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
               </div>
 
-              <div className="message-box form-input">
-                <label name="Message">Message:</label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  required
-                  onChange={handleChange}
-                  placeholder="Write a message"
-                  rows={textareaOpen? "6" : "2"}
-                  onClick={handleClick}
-                />
-              </div>
+              {isTyping ? (
+                <button hidden={buttonHidden} id="submit-button" type="submit">
+                  {" "}
+                  Submit{" "}
+                </button>
+              ) : null}
             </div>
-
-            <div hidden={loaderHidden} className="loader">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-
-            { isTyping? <button hidden={buttonHidden} id="submit-button" type="submit"> Submit  </button>: null}
-
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
   );

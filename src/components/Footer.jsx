@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { href, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const year = new Date().getFullYear();
 
@@ -41,17 +41,17 @@ function Footer() {
             <div className="footer-content-div">
               <div className="footer-location">
                 <p>Based in Lagos, working worldwide.</p>
-                <a
+                <Link
                   className="footer-bold bold-text"
                   onMouseOver={() => setColor(true)}
                   onMouseOut={() => setColor(false)}
                   style={{
                     color: changeColor === true ? "#01080b" : "#009BDF",
                   }}
-                  href="/contact"
+                  to="/contact"
                 >
                   Get in touch
-                </a>
+                </Link>
               </div>
 
               <div className="footer-info-div">
@@ -99,7 +99,6 @@ function Footer() {
             </div>
           </div>
 
-          <hr />
           <div className="footer-text-div">
             <p className="footer-text">
               @{year} AppSteeze's Portfolio. All rights reserved.

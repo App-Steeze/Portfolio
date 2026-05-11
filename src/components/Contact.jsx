@@ -14,6 +14,7 @@ function Contact() {
       <div className="contact-container">
         <div className="contact-box">
           <div className="contact-div">
+            
             <div className="contact-text-div">
               <h3 className="contact-text-title">Send me a message</h3>
               <p className="contact-text">

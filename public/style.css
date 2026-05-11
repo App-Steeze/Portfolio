@@ -30,10 +30,6 @@ h2, h3{
     color: #01080b;
 }
 
-hr{
-    color: #01080b;
-}
-
 p{
     max-width: 75ch;
 }
@@ -192,7 +188,7 @@ h4{
 }
 
 .about-text-div{
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .thick-text{
@@ -247,11 +243,10 @@ h4{
     flex-direction: row;
     justify-content: space-evenly;
     gap: 7%;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .niche-div{
-    /* padding: 3%; */
     padding: 25px;
     background-color: rgb(245, 244, 244);
     border-radius: 15px;
@@ -318,10 +313,10 @@ h4{
 }
 
 .skill-box{
-    padding-top: 10%;
+    padding-top: 150px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 16%;
+    padding-bottom: 150px;
 }
 
 .skill-content-box{
@@ -414,11 +409,11 @@ h4{
     padding-top: 50px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 13%;
+    padding-bottom: 150px;
 }
 
 .portfolio-box div h2{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .asset-box{
@@ -487,7 +482,7 @@ h4{
 .contact-container{
     width: 100%;
     overflow: hidden;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .contact-box{
@@ -515,7 +510,6 @@ h4{
 /* Form Session */
 
 .form-container{
-    width: 100%;
     --e-global-color-primary: #FFFFFF;
     --e-global-color-secondary: #4d595f;
     --e-global-color-text: #021924;
@@ -546,8 +540,7 @@ label{
     padding: 10px;
     border: 1px solid #7e7878;
     border-radius: 8px;
-    min-width: 80%;
-    max-width: 80%;
+    width: 95%;
     height: 30px;
 }
 
@@ -558,7 +551,7 @@ textarea{
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #7e7878;
-    width: 80%;
+    width: 95%;
     outline: none;
     overflow-y: auto;
     white-space: pre-wrap;
@@ -846,14 +839,10 @@ button{
         flex-direction: column;
         justify-content: space-evenly;
     }
-
+    
 
     /* Service Session */
 
-    .services-container{
-        margin-top: 0px;
-        padding-top: 0px;
-    }
 
     .services-box{
         padding-left: 20px;
@@ -874,13 +863,9 @@ button{
 
     .services-niche-box{
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
     }
 
     .services-niche-div{
-        max-width: 80%;
         display: flex;
         gap: 70px;
         flex-direction: column;
@@ -922,7 +907,6 @@ button{
     /* Portfolio session */
 
     .portfolio-box{
-        padding-bottom: 25%;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -949,7 +933,7 @@ button{
         max-height: 400px;
     }
     
-
+        
     /* Contact Session */
 
     .contact-div{
@@ -960,10 +944,11 @@ button{
         justify-content: space-between;
     }
 
-    /* Form Session */
-
-    .contact-form-box{
-        margin-top: 40px;
+    .contact-box{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 
@@ -1194,13 +1179,9 @@ button{
 
     .services-niche-box{
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
     }
 
     .services-niche-div{
-        max-width: 80%;
         display: flex;
         gap: 70px;
         flex-direction: column;
@@ -1285,10 +1266,11 @@ button{
         justify-content: space-between;
     }
 
-    /* Form Session */
-
-    .contact-form-box{
-        margin-top: 40px;
+    .contact-box{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 
@@ -1322,7 +1304,6 @@ button{
         padding-left: 15px;
         padding-right: 15px;
     }
-
 }
 
 

@@ -21,11 +21,7 @@ function Services() {
               <div className="paragraph-img-div">
                 <button type="button" className="arrow-btn">
                   <a href="/services">
-                    <img
-                      src={arrowLogo}
-                      alt="arrow image"
-                      width="50px"
-                    />
+                    <img src={arrowLogo} alt="arrow image" width="50px" />
                   </a>
                 </button>
               </div>
@@ -33,36 +29,30 @@ function Services() {
           </div>
 
           <div className="services-niche-box">
-          <div className="services-niche-div">
-            <div className="niche-div">
-              <div className="niche-title-div">
-                <img
-                  src={webDevLogo}
-                  alt="web development icon"
-                />
-                <h3 className="niche-header">WEB DEVELOPMENT</h3>
+            <div className="services-niche-div">
+              <div className="niche-div">
+                <div className="niche-title-div">
+                  <img src={webDevLogo} alt="web development icon" />
+                  <h3 className="niche-header">WEB DEVELOPMENT</h3>
+                </div>
+                <p className="niche-paragraph">
+                  If you are looking for a developer who will take over the
+                  research and development of your website, I am a
+                  well-established professional to help you with this.
+                </p>
               </div>
-              <p className="niche-paragraph">
-                If you are looking for a developer who will take over the
-                research and development of your website, I am a
-                well-established professional to help you with this.
-              </p>
-            </div>
-            <div className="niche-div">
-              <div className="niche-title-div">
-                <img
-                  src={webDesignLogo}
-                  alt="web design icon"
-                />
-                <h3 className="niche-header">WEB DESIGN</h3>
+              <div className="niche-div">
+                <div className="niche-title-div">
+                  <img src={webDesignLogo} alt="web design icon" />
+                  <h3 className="niche-header">WEB DESIGN</h3>
+                </div>
+                <p className="niche-paragraph">
+                  I'm proficient in designing beautiful and intuitive interfaces
+                  that enhance user experience, making website a pleasure to
+                  navigate.
+                </p>
               </div>
-              <p className="niche-paragraph">
-                I'm proficient in designing beautiful and intuitive interfaces
-                that enhance user experience, making website a pleasure to
-                navigate.
-              </p>
             </div>
-          </div>
           </div>
         </div>
       </div>
