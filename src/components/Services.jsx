@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import webDesignLogo from "../assets/icons8-web-design-40.png";
 import arrowLogo from "../assets/icons8-arrow-right-48.png";
 import webDevLogo from "../assets/icons8-web-developer-48.png";
@@ -20,9 +21,9 @@ function Services() {
               </div>
               <div className="paragraph-img-div">
                 <button type="button" className="arrow-btn">
-                  <a href="/services">
+                  <Link to="/services">
                     <img src={arrowLogo} alt="arrow image" width="50px" />
-                  </a>
+                  </Link>
                 </button>
               </div>
             </div>
